@@ -2,7 +2,7 @@
 
 export default function Page() {
   return (
-    <div className="relative min-h-screen w-full bg-gradient-to-br from-blue-100 via-white to-purple-100 px-6 pt-32 pb-20 overflow-hidden">
+    <div className="relative min-h-screen w-screen bg-gradient-to-br from-blue-100 via-white to-purple-100 px-6 pt-32 pb-20 overflow-hidden">
       {/* Floating Gradients */}
       <div className="absolute top-40 -left-32 w-[500px] h-[500px] bg-blue-500/30 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-32 -right-32 w-[450px] h-[450px] bg-purple-500/30 rounded-full blur-3xl animate-pulse" />
