@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
+import Nav from "@/components/Nav";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${poppins.variable} w-screen h-screen bg-black text-2xl text-white`}
       >
+        <Nav />
         {children}
       </body>
     </html>
