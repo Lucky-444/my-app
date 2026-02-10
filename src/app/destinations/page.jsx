@@ -43,7 +43,7 @@ const destinations = [
 
 export default function Page() {
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-blue-100 via-white to-purple-100 px-6 pt-32 pb-16">
+    <div className="relative min-h-screen w-full bg-gradient-to-br from-blue-100 via-white to-purple-100 px-6 pt-32 pb-16">
       {/* Heading */}
       <div className="text-center max-w-3xl mx-auto">
         <h1 className="text-5xl font-extrabold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-300 bg-clip-text text-transparent">

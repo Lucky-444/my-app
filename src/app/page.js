@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen w-full overflow-hidden bg-gradient-to-br from-blue-100 via-white to-purple-100">
+    <div className="relative w-full min-h-screen  overflow-hidden bg-gradient-to-br from-blue-100 via-white to-purple-100">
       {/* Gradient Blobs */}
       <div className="absolute top-40 -left-32 w-[500px] h-[500px] bg-blue-500/30 rounded-full blur-3xl animate-pulse" />
       <div className="absolute top-72 right-0 w-[400px] h-[400px] bg-purple-500/30 rounded-full blur-3xl animate-pulse" />
